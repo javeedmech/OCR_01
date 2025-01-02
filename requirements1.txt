@@ -1,0 +1,6 @@
+paddlepaddle
+paddleocr
+supervision
+numpy
+opencv-python
+pyinstaller
