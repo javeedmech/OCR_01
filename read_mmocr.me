@@ -1,0 +1,44 @@
+
+step 1. Clone MMOCR
+
+git clone https://github.com/open-mmlab/mmocr.git
+
+cd mmocr
+mim install -e .
+
+
+
+step 2. Then MMOCR directory will be created
+
+Now need to install 'torch' , 'torchvision' a 'supervision
+
+
+Step 3: Install the mmengine, mmcv, mmdet, mmcls, mmocr. (one by one execute following command in pycharm terminal
+
+pip install -U openmim
+mim install mmengine
+mim install mmocr
+Dependency Management: mim install ensures that all dependencies (including specific PyTorch versions) are installed in a compatible manner.
+
+mim install 'mmcv==2.0.0rc4'
+mim install 'mmdet==3.0.0rc5'
+mim install 'mmcls==1.0.0rc5'
+
+
+Step 4: Create some directory for SAM, MMOCR and  latent diffusion models (LDM) models checkpoint or weights
+
+model weight/DBNet
+model weight/ABINet
+
+
+
+Step 5: Download DBNet and ABINet Model weight
+
+DBNet Model Weight:
+
+wget https://download.openmmlab.com/mmocr/...
+
+
+ABINet Model Weight:
+
+wget https://download.openmmlab.com/mmocr/...
